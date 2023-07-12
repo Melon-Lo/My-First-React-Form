@@ -1,6 +1,10 @@
 # My First React Form
 
+<<<<<<< HEAD
 ![Cover image](https://github.com/Melon-Lo/My-First-React-Form/blob/main/cover.png?raw=true)
+=======
+![Cover Img](https://github.com/Melon-Lo/My-First-React-Form/blob/main/cover.png?raw=true)
+>>>>>>> 4f12b798add24718e1a428cb882f8eacd477c3ae
 
 ### Introduction
 

@@ -11,7 +11,7 @@ export default function InputForm() {
     e.preventDefault()
 
     if(outputClassName === 'hidden') {
-      if(name.length === 0 || email.length === 0) { //
+      if(name.length === 0 || email.length === 0) {
         return alert('Please enter the blank(s)!')
       }
       setOutputClassName('show')
