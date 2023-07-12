@@ -1,6 +1,6 @@
 # My Space
 
-![https://github.com/Melon-Lo/My-First-React-Form/blob/main/cover.png?raw=true]()
+![Cover Img](https://github.com/Melon-Lo/My-First-React-Form/blob/main/cover.png?raw=true)
 
 ### Introduction
 
