@@ -10,9 +10,11 @@ export default function InputForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
+    // When the button is clicked, change the output's className.
     if(outputClassName === 'hidden') {
       if(name.length === 0 || email.length === 0) {
-        return alert('Please enter the blank(s)!')
+        // If there's empty blank(s), show the alert. 
+        return alert('Please fill the blank(s)!')
       }
       setOutputClassName('show')
     } else  {
@@ -33,6 +35,7 @@ export default function InputForm() {
             <h5 className="content-title">E-mail:</h5>
             <input className="content-input" type="text" placeholder='Please enter your e-mail.' onChange={(e) => setEmail(e.target.value)}/>
           </div>
+          {/* Based on the state of 'isRevealed', change the content in the button. */}
           <button className='submit'>{isRevealed ? 'Hide' : 'Submit'}</button>
       </form>
       <div className={outputClassName}>
